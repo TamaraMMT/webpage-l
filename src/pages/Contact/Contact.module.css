@@ -1,0 +1,45 @@
+.container {
+  max-width: 1000px;
+  padding: 20px;
+  font-family: "Lora", serif;
+  margin: auto;
+  align-items: center;
+}
+
+.contact_page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  font-family: "Lora", serif;
+}
+
+.contact_data p {
+  font-size: 1.1rem;
+  margin: 2% auto;
+}
+
+.contact_data,
+.contact_form {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.contact_form {
+  display: flex;
+  max-width: 400px;
+  flex-direction: column;
+}
+
+@media (max-width: 800px) {
+  .contact_page {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact_form {
+    padding: 10px;
+    max-width: 350px;
+
+  }
+
+}

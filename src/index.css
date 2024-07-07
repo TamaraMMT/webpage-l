@@ -1,0 +1,162 @@
+body {
+  font-family: "Lora", serif;
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  padding: 0.5em 0.5em;
+  border-radius: 0.5rem;
+  border: 0.5px solid rgba(182, 117, 43, 0.26);
+  font-family: "Lora", serif;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.781);
+  border-radius: 4px;
+  resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(134, 134, 134);
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgb(202, 202, 202);
+  outline: none;
+}
+
+
+span {
+  font-family: "Inter", sans-serif;
+
+}
+
+.notfound {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.link_notfound {
+  color: rgb(24, 73, 109);
+}
+
+a,
+nav {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  transition: 0.5s;
+  color: rgb(99, 98, 98);
+  font-size: 1.2rem;
+  font-family: "Lora", serif;
+}
+
+
+
+button {
+  background-color: rgba(14, 58, 99, 0.26);
+  padding: 0.4em;
+  margin: 2px 2px;
+  max-width: 80px;
+  color: rgb(99, 49, 0);
+  transition: 0.3s;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  border: 1px solid rgba(77, 52, 22, 0.192);
+  border-radius: 10px;
+}
+
+
+button:hover {
+  background-color: rgba(83, 67, 61, 0.486);
+  border: 1px solid rgb(168, 168, 168);
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.btn-dark {
+  background-color: rgba(73, 73, 73, 0.966);
+  padding: 0.4em;
+  margin: 2px 2px;
+  max-width: 80px;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+}
+
+
+.btn-dark:hover {
+  background-color: rgba(32, 119, 201, 0.336);
+  border: none;
+  color: rgba(0, 0, 0, 0.582);
+}
+
+
+.btn-outline {
+  border-radius: 10px;
+  padding: 0.4em;
+  margin: 20px;
+  color: blueviolet;
+  background-color: transparent;
+  border: none;
+
+}
+
+
+/* forms styles */
+
+form {
+  max-width: 100%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.container .error {
+  padding: 5px;
+  color: #D63301;
+  background-color: #ffccba9c;
+  border: 1px solid rgba(160, 1, 1, 0.39);
+  border-radius: 5px;
+  width: 70%;
+  font-size: 12px;
+}
+
+.container .success {
+  padding: 5px;
+  color: #4F8A10;
+  background-color: #9bf10654;
+  border: 1px solid rgba(4, 65, 14, 0.308);
+  border-radius: 5px;
+  width: 70%;
+  font-size: 12px;
+}
+
+
+@media (max-width: 600px) {
+
+  input,
+  textarea,
+  label {
+    width: 100%;
+  }
+}
